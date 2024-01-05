@@ -1,7 +1,7 @@
-
-#Мельников Александр, 11-я когорта - Финальный проект. Инженер по тестированию плюс
+#Мельников Александр, 12-я когорта - Финальный проект. Инженер по тестированию плюс
 import sender_stand_request
 import data
+
 
 def test_create_and_get_order_info():
     response_create = sender_stand_request.create_order(data.CREATE_ORDER_BODY)
